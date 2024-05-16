@@ -14,3 +14,4 @@ source .venv/bin/activate (on mac or linux)
 .venv\Scripts\activate (on windows)
 pip install Django
 python manage.py runserver
+```
