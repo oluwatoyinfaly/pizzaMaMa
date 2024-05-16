@@ -1,0 +1,70 @@
+:root {
+    --primary-color: rgb(215, 130, 11);
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/menu_background.jpg') no-repeat center center fixed;
+    --webkit-background-size: cover;
+    --moz-background-size: cover;
+    --o-background-size: cover;
+    background-size: cover;
+    color: aliceblue;
+    margin: 0;
+}
+
+#logo {
+    margin-top: 25px;
+    margin-left: 35px;
+}
+h1 {
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 8px 70px 8px 30px;
+    font-family: Arial;
+}
+
+div.menu_title{
+    margin-top: 35px;
+}
+
+div.menu_list {
+    margin-left: 30px;
+}
+
+div.menu_list_item {
+    margin: 30px 0;
+}
+
+span.menu_list_title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    display: inline-block;
+}
+
+span.menu_list_price {
+    font-size: 20px;
+    color: var(--primary-color);
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+div.menu_list_ingrdients {
+    font-size: 14px;
+    color: #C8C8C8;
+    margin-top: 4px;
+    width: 320px;
+}
+
+.menu_list_vegetarian{
+    font-size: 14px;
+    background-color: var(--primary-color);
+    color: #000000;
+    margin-top: 4px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 3px 8px;
+    font-weight: bold;
+}

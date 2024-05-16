@@ -1,0 +1,28 @@
+body {
+    background: url('images/main_background.jpg') no-repeat center center fixed;
+    --webkit-background-size: cover;
+    --moz-background-size: cover;
+    --o-background-size: cover;
+    background-size: cover;
+}
+
+div.centered_div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+a{
+    color: #f35d06;
+    text-align: center;
+    display: block;
+}
